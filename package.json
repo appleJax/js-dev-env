@@ -8,6 +8,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
+    "localtunnel": "lt --port 3000",
+    "share": "npm-run-all --parallel localtunnel start",
     "test": "jest --runInBand"
   },
   "dependencies": {
