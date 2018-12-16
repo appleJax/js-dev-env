@@ -10,7 +10,7 @@
     "start": "webpack-dev-server",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel localtunnel start",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand --watchAll"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0"
